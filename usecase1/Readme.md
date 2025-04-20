@@ -6,16 +6,16 @@ This project demonstrates a simple Kafka producer-consumer architecture. A produ
 
 ## Architecture
 
-```
+
 ![Architechture Diagram](images/kafkausecase1.png)
-```
+
 
 ## Folder Structure
 
 ```plaintext
 .
 ├── kafka-setup/
-│   ├── create-topic.sh
+│   ├── create_or_replace_kafka_topic.sh
 ├── producer/
 │   ├── producer.py
 ├── consumer/
@@ -27,7 +27,7 @@ This project demonstrates a simple Kafka producer-consumer architecture. A produ
 
 1. **kafka-setup/**  
    Contains shell scripts to set up Kafka topics and brokers.  
-   - `create-topic.sh`: Script to create the Kafka topic.
+   - `create_or_replace_kafka_topic.sh`: Script to create the Kafka topic.
 
 2. **producer/**  
    Contains the producer application code.  
@@ -68,9 +68,9 @@ This project demonstrates a simple Kafka producer-consumer architecture. A produ
 ## How to Run
 
 1. **Setup Kafka Topic**:
-   Run the `create-topic.sh` script to create the Kafka topic:
+   Run the `create_or_replace_kafka_topic.sh` script to create the Kafka topic:
    ```bash
-   bash kafka-setup/create-topic.sh
+   bash kafka-setup/create_or_replace_kafka_topic.sh
    ```
 
 2. **Start the Consumer**:
