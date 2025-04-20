@@ -7,7 +7,7 @@ This project demonstrates a simple Kafka producer-consumer architecture. A produ
 ## Architecture
 
 ```
-[Producer App] --> (Kafka Broker) --> [Consumer App]
+![Architechture Diagram](images/kafkausecase1.png)
 ```
 
 ## Folder Structure
@@ -86,3 +86,7 @@ This project demonstrates a simple Kafka producer-consumer architecture. A produ
    ```
 
 You should see messages being sent by the producer and received by the consumer in real-time.
+
+## Output
+
+![Kafka Output](images/usecase1-output.png)
